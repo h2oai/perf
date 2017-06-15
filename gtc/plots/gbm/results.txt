@@ -1,0 +1,11 @@
+## Single node benchmarks on Higgs dataset (2M rows, 29 cols)
+## 50%/50% train/test split - AUC calculated on validation split
+## GBM: build 100 trees for 4 different max_depths and 4 different sampling rates.
+## histogram method
+
+task hardware runtime AUC   notes
+GBM "2x Xeon CPUs**"        4471    0.8  "DGX-1"
+GBM "1x P100 GPU*"         171     0.8   "DGX-1"
+GBM "2x P100 GPU*"        87     0.8   "DGX-1"
+GBM "4x P100 GPU*"        51     0.8   "DGX-1"
+GBM "8x P100 GPU*"        48     0.8   "DGX-1"
