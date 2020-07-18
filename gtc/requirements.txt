@@ -28,7 +28,7 @@ pandocfilters==1.4.1
 pexpect==4.2.1
 pickleshare==0.7.4
 prompt-toolkit==1.0.14
-psutil==5.2.2
+psutil==5.6.7
 ptyprocess==0.5.1
 -e git+https://github.com/fbcotter/py3nvml@02725339bea16ef38de8204a1b27206552db1fdd#egg=py3nvml
 Pygments==2.2.0
@@ -43,7 +43,7 @@ simplegeneric==0.8.1
 six==1.10.0
 terminado==0.6
 testpath==0.3
-tornado==4.5.1
+tornado==5.1.0
 traitlets==4.3.2
 wcwidth==0.1.7
 webencodings==0.5.1
